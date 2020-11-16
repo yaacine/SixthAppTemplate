@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SixthAppTemplate
+  description: SixthAppTemplate
+  tags:
+    - flutter
+    - ios
+    - android
+  annotations:
+    github.com/project-slug: yaacine/SixthAppTemplate
+    backstage.io/techdocs-ref: github:https://github.com/yaacine/SixthAppTemplate
+spec:
+  type: website
+  lifecycle: experimental
+  owner: gy_zidelmal@esi.dz
